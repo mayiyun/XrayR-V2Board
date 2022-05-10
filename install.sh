@@ -110,7 +110,7 @@ install_XrayR() {
         last_version=$1
         url="https://down.mayiyun.vip/XrayR/XrayR-linux-64.zip"
         echo -e "开始安装 XrayR v$1"
-        wget -N --no-check-certificate -O /usr/local/XrayR/XrayR-linux-64.zip ${url}
+        wget -N --no-check-certificate -O /usr/local/XrayR/XrayR-linux-64.zip
         if [[ $? -ne 0 ]]; then
             echo -e "${red}下载 XrayR v$1 失败，请确保此版本存在${plain}"
             exit 1
