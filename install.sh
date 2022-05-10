@@ -36,7 +36,7 @@ if [ "$(getconf WORD_BIT)" != '32' ] && [ "$(getconf LONG_BIT)" != '64' ] ; then
     exit 2
 fi
 
-os_version="0.8.0"
+os_version="v0.8.0"
 
 # os version
 if [[ -f /etc/os-release ]]; then
